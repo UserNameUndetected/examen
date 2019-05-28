@@ -1,0 +1,14 @@
+@media print {
+    body {
+        background: #fff;
+    }
+
+    .sidebar,
+    button,
+    .h4,
+    label,
+    input,
+    select {
+        display: none;
+    }
+}

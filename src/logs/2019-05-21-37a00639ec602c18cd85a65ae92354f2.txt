@@ -1,0 +1,87 @@
+Time : 12:58:21
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bon`, CONSTRAINT `bon_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:29:53
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bon`, CONSTRAINT `bon_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : UPDATE `reservering` SET `datum` = :datum, `tijd` = :tijd, `tafel` = :tafel, `aantal` = :aantal, `allergieen` = :allergieen, `opmerkingen` = :opmerkingen, `gebruikt` = :gebruikt WHERE `datum` = :datum2 AND `tijd` = :tijd2 AND `tafel` = :tafel2
+
+Time : 10:29:09
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:28:57
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : UPDATE `reservering` SET `datum` = :datum, `tijd` = :tijd, `tafel` = :tafel, `aantal` = :aantal, `allergieen` = :allergieen, `opmerkingen` = :opmerkingen, `gebruikt` = :gebruikt WHERE `datum` = :datum2 AND `tijd` = :tijd2 AND `tafel` = :tafel2
+
+Time : 10:26:28
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:06:42
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_2` FOREIGN KEY (`menuitemcode`) REFERENCES `menuitem` (`menuitemcode`))
+Raw SQL : DELETE FROM `menuitem` WHERE `menuitemcode` = :menuitemcode
+
+Time : 10:06:36
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_2` FOREIGN KEY (`menuitemcode`) REFERENCES `menuitem` (`menuitemcode`))
+Raw SQL : DELETE FROM `menuitem` WHERE `menuitemcode` = :menuitemcode
+
+Time : 10:05:20
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:05:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:05:15
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:05:10
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:05:05
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:04:58
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:04:17
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 10:03:51
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:50:46
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:50:02
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:49:41
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:48:13
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:48:10
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:48:07
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
+
+Time : 08:48:04
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`examen`.`bestelling`, CONSTRAINT `bestelling_ibfk_1` FOREIGN KEY (`tafel`) REFERENCES `reservering` (`tafel`))
+Raw SQL : DELETE FROM `reservering` WHERE `datum` = :datum AND `tijd` = :tijd AND `tafel` = :tafel
